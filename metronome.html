@@ -14,8 +14,8 @@
     <form>
       BPM: <input id="bpm" type="text" name="bpm" value="120">
     </form>
-    <button type="button" name="button" onclick="startMetronome()">Start Metronome</button>
-    <button type="button" name="button" onclick="stopMetronome()">Stop Metronome</button>
+    <button id="StartButton" type="button" name="button" onclick="startMetronome()">Start Metronome</button>
+    <button id="StopButton" type="button" name="button" onclick="stopMetronome()" disabled>Stop Metronome</button>
     <p id="mTest"></p>
   </body>
 </html>

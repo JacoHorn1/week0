@@ -1,12 +1,18 @@
 var running = false;
 
 function startMetronome () {
-  var bps = beatsPerSecond(document.getElementById("bpm").value);
+  document.getElementById("StartButton").disabled = true;
+  document.getElementById("StopButton").disabled = false;
+  document.getElementById("bpm").disabled = true;
   running = true;
+  var bps = beatsPerSecond(document.getElementById("bpm").value);
   metronomeLoop(bps);
 }
 
 function stopMetronome () {
+  document.getElementById("StartButton").disabled = false;
+  document.getElementById("StopButton").disabled = true;
+  document.getElementById("bpm").disabled = false;
   running = false;
 }
 
