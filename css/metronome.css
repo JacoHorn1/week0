@@ -1,0 +1,21 @@
+.metronomeForm {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+#bpm {
+  width: 153px;
+  margin-left: 10px;
+}
+
+#StartButton, #StopButton {
+  width:100px;
+  margin-left: 10px
+}
+
+
+.form-label {
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-right: 10px;
+}
