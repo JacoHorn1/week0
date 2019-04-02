@@ -1,9 +1,9 @@
 pre {
-  margin: 0px !important;
+  margin: 0 !important;
 }
 
 .bassTabs {
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
 #HeartAttackTabs {
@@ -20,9 +20,10 @@ pre {
   margin-left: 10px;
 }
 
-#StartButton, #StopButton {
-  width:100px;
-  margin-left: 10px
+#StartButton,
+#StopButton {
+  width: 100px;
+  margin-left: 10px;
 }
 
 .form-label {
