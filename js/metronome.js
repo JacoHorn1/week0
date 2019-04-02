@@ -14,6 +14,8 @@ function stopMetronome() {
   document.getElementById("StartButton").disabled = false;
   document.getElementById("StopButton").disabled = true;
   document.getElementById("bpm").disabled = false;
+  sound.pause();
+  sound.currentTime = 0;
   running = false;
 }
 
@@ -21,6 +23,7 @@ function metronomeLoop(bps) {
   setTimeout(function() {
     if (running == true) {
       sound.src = './media/Recording.m4a';
+      sound.currentTime = 0;
       sound.play();
       metronomeLoop(bps);
     }
