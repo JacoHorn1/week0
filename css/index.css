@@ -1,5 +1,5 @@
 pre {
-  margin: 0px !important;
+  margin: 0 !important;
 }
 
 .bassTabs {
@@ -20,7 +20,8 @@ pre {
   margin-left: 10px;
 }
 
-#StartButton, #StopButton {
+#StartButton,
+#StopButton {
   width: 100px;
   margin-left: 10px;
 }
