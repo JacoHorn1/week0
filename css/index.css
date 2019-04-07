@@ -32,4 +32,9 @@ pre {
   margin-right: 10px;
 }
 
+#AboutWebsite a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=index.css.map */
