@@ -37,4 +37,10 @@ pre {
   font-weight: bold;
 }
 
+@media (min-width: 800px) {
+  #IndexHeading::after {
+    content: " - Help me play better bass";
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
