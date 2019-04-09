@@ -1,3 +1,9 @@
+#StartButton,
+#StopButton {
+  width: 100px;
+  margin-left: 10px;
+}
+
 pre {
   margin: 0 !important;
 }
@@ -20,12 +26,6 @@ pre {
   margin-left: 10px;
 }
 
-#StartButton,
-#StopButton {
-  width: 100px;
-  margin-left: 10px;
-}
-
 .form-label {
   padding-left: 10px;
   padding-top: 5px;
@@ -41,6 +41,14 @@ pre {
   #IndexHeading::after {
     content: " - Help me play better bass";
   }
+}
+#MetronomeIndexLink a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#tabs {
+  padding-left: 20px;
 }
 
 /*# sourceMappingURL=index.css.map */

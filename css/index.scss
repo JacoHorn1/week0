@@ -1,3 +1,11 @@
+$link-font-weight: bold;
+$link-text-decoration: underline;
+
+%form-buttons {
+  width: 100px;
+  margin-left: 10px;
+}
+
 pre {
   margin: 0 !important;
 }
@@ -22,8 +30,7 @@ pre {
 
 #StartButton,
 #StopButton {
-  width: 100px;
-  margin-left: 10px;
+  @extend %form-buttons;
 }
 
 .form-label {
@@ -33,12 +40,23 @@ pre {
 }
 
 #AboutWebsite a {
-    text-decoration: underline;
-    font-weight: bold;
+  text-decoration: $link-text-decoration;
+  font-weight: $link-font-weight;
 }
 
 @media (min-width: 800px) {
   #IndexHeading::after {
     content: " - Help me play better bass";
   }
+}
+
+#MetronomeIndexLink {
+  a {
+    text-decoration: $link-text-decoration;
+    font-weight: $link-font-weight;
+  }
+}
+
+#tabs {
+  padding-left: 20px;
 }
