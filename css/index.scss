@@ -43,7 +43,6 @@ pre {
   text-decoration: $link-text-decoration;
   font-weight: $link-font-weight;
 }
-
 @media (min-width: 800px) {
   #IndexHeading::after {
     content: " - Help me play better bass";
@@ -59,4 +58,8 @@ pre {
 
 #tabs {
   padding-left: 20px;
+}
+
+body {
+  padding-left: 10px;
 }
