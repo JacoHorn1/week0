@@ -13,7 +13,7 @@ Contents of each file:
 
 2. metronome.html
   This is just a small form that contains a beats per minute input field and a start and stop button.
-  The start button will trigger a javascript method to run recursively until stop is pressed. (Playing the metronome sound at the bbm selected)
+  The start button will trigger a Javascript method to run recursively until stop is pressed. (Playing the metronome sound at the bbm selected)
   The stop button will cause the recursive method to break out.
 
 3. about.html
